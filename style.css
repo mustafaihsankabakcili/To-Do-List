@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #003638;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+body {
+    background-color: #F3F2C9;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 1% auto 1%;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    width: 350px;
+    height: 725px;
+    background-color: #53B8BB;
+    border-radius: 25px;
+}
+
+.input_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 5% auto 7.5%;
+}
+
+.input_container form {
+    width: 100%;
+}
+
+.input_container input[name=task] {
+    border-radius: 10px;
+    background-color: #F3F2C9;
+    padding: 3%;
+    width: 50%;
+    height: 30px;
+    border: 0;
+}
+
+.input_container input[value="+"] {
+    border-radius: 10px;
+    background-color: #003638;
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.task_list_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    border: 5px solid #F3F2C9;
+    border-radius: 10px;
+}
+
+.task_list_title h3 {
+    margin: 3%;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #F3F2C9;
+    border-radius: 10px;
+    width: 80%;
+    height: 70%;
+    margin: 3% auto;
+    padding: 5%;
+}
+
+.remaining {
+    position: absolute;
+    bottom: 5%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1%;
+}
